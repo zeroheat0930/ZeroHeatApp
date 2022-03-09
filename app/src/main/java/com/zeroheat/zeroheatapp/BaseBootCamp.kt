@@ -1,4 +1,16 @@
 package com.zeroheat.zeroheatapp
 
-class BaseBootCamp {
+import androidx.appcompat.app.AppCompatActivity
+
+abstract class BaseBootCamp : AppCompatActivity() {
+
+    val mContext = this
+
+    abstract fun setupEvents(
+
+    )
+    abstract fun setValues(
+
+    )
+
 }
